@@ -2,10 +2,10 @@
 
 /**
  * averagePair: Check to see if any two numbers in a sorted array of numbers average the input average target
- * 
+ *
  * nums: array
  * targetAvg: number
- * 
+ *
  * return: boolean
  */
 

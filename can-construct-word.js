@@ -56,7 +56,8 @@ function canConstructWord(word, letters) {
   let lettersFreqs = createFrequencyCounter(letters);
 
   for (let letterKey in wordFreqs) {
-    if (!(letterKey in lettersFreqs) || wordFreqs[letterKey] > lettersFreqs[letterKey]) {
+    let freqOfLetter = lettersFreqs[letterKey] || 0;
+    if (wordFreqs[letterKey] > freqOfLetter) {
       return false;
     }
   }
