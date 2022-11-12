@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * twoArrayObject: Create an object from provided arrays of keys and values
  * Extra values will be ignored, and insufficient values will be filled with null
